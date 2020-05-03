@@ -36,3 +36,4 @@ class ChatPostSerializers(serializers.ModelSerializer):
     class Meta:
         model = Chat
         fields = ('room', 'text' )
+
